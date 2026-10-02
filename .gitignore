@@ -1,0 +1,20 @@
+# Ignore every real environment file; only the placeholder template is publishable.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated images do not belong to the image-generation tool repository.
+/output/
+/images/
